@@ -1,0 +1,58 @@
+<html>
+    <head>
+       <title>collage web app</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+<link href="style.css" rel="stylesheet">
+
+</head>
+ 
+<body>
+    <div class="container">
+    <center>
+        <h1 id="webapp">Collage web app 
+
+        </h1>
+        <hr>
+        <h4 style="color:red;" id=guide>As soon as the popup appears, please click allow. After you've spoken a command</h4>
+        
+            
+            <h3>Say "selfie" for taking you're selfies and to make a collage</h3>
+        
+        <button onclick="startmic() " class="btn btn-success">start</button>    
+        <p>Press the Start button</p>
+
+        <label>Your webcam : </label>
+        <div id="camera"></div>
+
+        <br>
+
+        <label>All Selfies Will Display Here: </label>
+        <div id="resultShow">
+          <div > 
+            <img src="WIN_20230518_18_23_49_Pro.jpg" id="result1">
+          </div>
+          <br>
+          <div > 
+            <img src="WIN_20230518_18_25_00_Pro (2).jpg" id="result2">
+          </div> 
+          <br>
+          <div > 
+            <img src="WIN_20230518_18_25_00_Pro.jpg" id="result3">
+          </div> 
+        </div>
+
+    </center>
+    </div>
+    <div id="footer1">
+      Developed By Oliver         
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
